@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1",
+    "category": "Soccer",
+    "info": "Football, also called association football or soccer, is a game involving two teams of 11 players who try to maneuver the ball into the other team's goal without using their hands or arms. The team that scores more goals wins.",
+    "time": 90,
+    "age": 20,
+    "img": "https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg"
+  },
+  {
+    "id": "2",
+    "category": "Basketball",
+    "info": "Basketball is a game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent's goal, an elevated horizontal hoop and net called a basket.",
+    "time": 30,
+    "age": 22,
+    "img": "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80.jpg"
+  },
+  {
+    "id": "3",
+    "category": "Cricket",
+    "info": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps.",
+    "time": 60,
+    "age": 25,
+    "img": "https://images.unsplash.com/photo-1576399974493-97a876096a29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg"
+  },
+  {
+    "id": "4",
+    "category": "Tennis",
+    "info": "Tennis is a racket sport that is played either individually against a single opponent (singles) or between two teams of two players each (doubles). Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court.",
+    "time": 25,
+    "age": 30,
+    "img": "https://images.unsplash.com/photo-1560012057-4372e14c5085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80.jpg"
+  },
+  {
+    "id": "5",
+    "category": "Hockey",
+    "info": "field hockey, also called hockey, outdoor game played by two opposing teams of 11 players each who use sticks curved at the striking end to hit a small, hard ball into their opponent's goal.",
+    "time": 30,
+    "age": 25,
+    "img": "https://images.unsplash.com/photo-1607863400985-8d3bc50e3fd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80.jpg"
+  },
+  {
+    "id": "6",
+    "category": "Handball",
+    "info": "Handball is a team sport consisting of 14 total players on the court, who must pass and dribble a ball up the court to score in the opposition's goal. Handball is played on a 40mx20m court with 3mx2m goals at each end, surrounded by a D-shaped area called the goal area.",
+    "time": 45,
+    "age": 22,
+    "img": "https://images.unsplash.com/photo-1495329356033-eb76e0af9fd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80.jpg"
+  },
+  {
+    "id": "7",
+    "category": "Volleyball",
+    "info": "volleyball, game played by two teams, usually of six players on a side, in which the players use their hands to bat a ball back and forth over a high net, trying to make the ball touch the court within the opponents playing area before it can be returned.",
+    "time": 50,
+    "age": 23,
+    "img": "https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg"
+  },
+  {
+    "id": "8",
+    "category": "Badminton",
+    "info": "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are 'singles' (with one player per side) and 'doubles' (with two players per side).",
+    "time": 20,
+    "age": 24,
+    "img": "https://images.unsplash.com/photo-1626326880051-9320471299c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg"
+  },
+  {
+    "id": "9",
+    "category": "Baseball",
+    "info": "Baseball is a bat-and-ball sport played between two teams of nine players each, taking turns batting and fielding. The game is live when the umpire signals to the pitcher either verbally or by pointing, indicating that the ball is now in play.",
+    "time": 40,
+    "age": 29,
+    "img": "https://images.unsplash.com/photo-1583960435304-37f2e1592c37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=816&q=80.jpg"
+
+  }
+  
+]
