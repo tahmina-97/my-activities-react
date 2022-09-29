@@ -90,3 +90,12 @@
     font-weight: 500;
 
 }
+
+@media screen and (max-width:768px){
+    .user{
+        margin-top: 30px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+}
