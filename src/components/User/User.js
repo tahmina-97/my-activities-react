@@ -7,14 +7,16 @@ import './User.css'
 import Break from '../Break/Break';
 
 
+
 const User = (props) => {
     const { time } = props;
-    // const [break, setBreak] = useState(0);
+    const [breakTime, setBreakTime] = useState(0);
 
-    // const handleBreak = (event) => {
-    //     setBreak(event);
 
-    // }
+
+    const handleBreak = (selectedBreak) => {
+        setBreakTime(selectedBreak);
+    }
 
 
 
@@ -52,14 +54,15 @@ const User = (props) => {
                 </div>
             </div>
 
+
             <div className="break">
                 <h2 className='titles'>Add a Break</h2>
                 <div className="break-container">
-                    <Break break='10'></Break>
-                    <Break break='20'></Break>
-                    <Break break='30'></Break>
-                    <Break break='40'></Break>
-                    <Break break='50'></Break>
+                    <Break handleBreak={handleBreak} break="10"></Break>
+                    <Break handleBreak={handleBreak} break="20"></Break>
+                    <Break handleBreak={handleBreak} break="30"></Break>
+                    <Break handleBreak={handleBreak} break="40"></Break>
+                    <Break handleBreak={handleBreak} break="50"></Break>
                 </div>
             </div>
 
@@ -73,7 +76,7 @@ const User = (props) => {
 
                 <div className='sports-details'>
                     <h2 className=''>Break Time</h2>
-                    <p className='time'> { } </p>
+                    <p className='time'> {breakTime} </p>
                 </div>
                 <div>
                     <button onClick={notifyToast} className='btn-activity-complete'>
@@ -91,5 +94,7 @@ const User = (props) => {
         </div>
     );
 };
+
+
 
 export default User;

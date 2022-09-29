@@ -2,10 +2,11 @@ import React from 'react';
 import './Break.css'
 
 const Break = (props) => {
+    const { handleBreak } = props;
 
     return (
 
-        <li>{props.break}m</li>
+        <li onClick={() => handleBreak(props.break)} >{props.break}m</li>
 
     );
 };
