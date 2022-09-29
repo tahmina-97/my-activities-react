@@ -1,0 +1,6 @@
+.questions-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px 100px;
+    gap: 35px;
+}
