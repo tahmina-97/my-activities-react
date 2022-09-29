@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './User.css'
 import Break from '../Break/Break';
+import { addToLS, getStoredBreak } from '../../utilities/localstorage';
 
 
 
@@ -16,7 +17,13 @@ const User = (props) => {
 
     const handleBreak = (selectedBreak) => {
         setBreakTime(selectedBreak);
+        addToLS(selectedBreak);
     }
+
+    useEffect(() => {
+        const storedBreak = getStoredBreak();
+        setBreakTime(storedBreak);
+    }, []);
 
 
 
