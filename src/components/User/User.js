@@ -1,10 +1,18 @@
-
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
 import './User.css'
 
+
 const User = () => {
+
+    //    Toast notification function
+    const notifyToast = () => {
+        toast('Congratulations, You are done!!')
+    }
+
     return (
         <div className='user'>
             <div className='user-profile'>
@@ -53,10 +61,15 @@ const User = () => {
                     <h2 className=''>Break Time</h2>
                     <p className='time'> 200</p>
                 </div>
+                <div>
+                    <button onClick={notifyToast} className='btn-activity-complete'>
+                        <p>Activity Completed</p>
+                    </button>
+                    <ToastContainer />
 
-                <button className='btn-activity-complete'>
-                    <p>Activity Completed</p>
-                </button>
+                </div>
+
+
 
 
             </div>
