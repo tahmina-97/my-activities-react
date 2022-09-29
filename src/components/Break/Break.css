@@ -1,0 +1,11 @@
+
+.break-container li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding: 11px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}

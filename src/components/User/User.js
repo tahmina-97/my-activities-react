@@ -1,18 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './User.css'
+import Break from '../Break/Break';
 
 
 const User = (props) => {
     const { time } = props;
+    // const [break, setBreak] = useState(0);
+
+    // const handleBreak = (event) => {
+    //     setBreak(event);
+
+    // }
+
+
 
     //    Toast notification function
     const notifyToast = () => {
         toast('Congratulations, You are done!!')
     }
+
+
 
     return (
         <div className='user'>
@@ -43,21 +54,23 @@ const User = (props) => {
 
             <div className="break">
                 <h2 className='titles'>Add a Break</h2>
-                <ul className="break-container">
-                    <li><span>10</span>m</li>
-                    <li><span>20</span>m</li>
-                    <li><span>30</span>m</li>
-                    <li><span>40</span>m</li>
-                    <li><span>50</span>m</li>
-                </ul>
+                <div className="break-container">
+                    <Break break='10'></Break>
+                    <Break break='20'></Break>
+                    <Break break='30'></Break>
+                    <Break break='40'></Break>
+                    <Break break='50'></Break>
+                </div>
             </div>
 
             <div>
                 <h2 className='titles'>Sports Details</h2>
+
                 <div className='sports-details'>
                     <h2 className=''>Sports Time</h2>
                     <p className='time'> {time} </p>
                 </div>
+
                 <div className='sports-details'>
                     <h2 className=''>Break Time</h2>
                     <p className='time'> { } </p>

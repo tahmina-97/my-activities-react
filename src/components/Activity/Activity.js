@@ -8,6 +8,7 @@ import './Activity.css'
 const Activity = () => {
     const [sports, setSports] = useState([]);
     const [time, setTime] = useState(0);
+
     useEffect(() => {
         fetch('activities.json')
             .then(res => res.json())
