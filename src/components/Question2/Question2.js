@@ -2,7 +2,7 @@ import React from 'react';
 
 const Question2 = () => {
     return (
-        <div>
+        <div className='question'>
             <h1>What are the differences between props and state ?</h1>
             <p>
                 Props are used to pass data from one component to another.
