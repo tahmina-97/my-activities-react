@@ -1,17 +1,18 @@
 .sport{
     position: relative;
     height: 555px;
-    width: 300px;
+    /* width: 300px; */
     border: 1px solid rgb(196 181 253);
     border-radius: 8px;
+    padding: 10px;
+
 }
 
 .sport img{
     height: 250px;
-    width: 280px;
+    width: 100%;
     object-fit: cover;
     border-radius: 8px;
-    margin: 10px;
 }
 .sport-info{
     margin: 0 14px;
@@ -52,6 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .btn-add-list:hover{
     background-color: rgb(109 40 217);
