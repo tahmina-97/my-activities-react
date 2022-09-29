@@ -2,7 +2,8 @@ import React from 'react';
 import './Sport.css'
 
 const Sport = (props) => {
-    const { name, info, img, time, age } = props.sport
+    const { sport, handleAddToList } = props;
+    const { name, info, img, time, age } = sport;
 
     return (
         <div className='sport'>
@@ -14,7 +15,7 @@ const Sport = (props) => {
                 <p className='age-limit'>For Age: {age}</p>
                 <p className='sport-time'>Time: {time} </p>
             </div>
-            <button className='btn-add-list'>
+            <button onClick={() => { handleAddToList(time) }} className='btn-add-list'>
                 <p>Add To List</p>
             </button>
 

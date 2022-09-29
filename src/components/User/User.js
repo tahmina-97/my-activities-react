@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './User.css'
 
 
-const User = () => {
+const User = (props) => {
+    const { time } = props;
 
     //    Toast notification function
     const notifyToast = () => {
@@ -55,11 +56,11 @@ const User = () => {
                 <h2 className='titles'>Sports Details</h2>
                 <div className='sports-details'>
                     <h2 className=''>Sports Time</h2>
-                    <p className='time'> 200</p>
+                    <p className='time'> {time} </p>
                 </div>
                 <div className='sports-details'>
                     <h2 className=''>Break Time</h2>
-                    <p className='time'> 200</p>
+                    <p className='time'> { } </p>
                 </div>
                 <div>
                     <button onClick={notifyToast} className='btn-activity-complete'>
