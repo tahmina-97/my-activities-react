@@ -1,5 +1,6 @@
 .user{
-    padding: 20px 30px;
+    padding: 30px 30px;
+    padding-top: 10px;
     position: sticky;
     top: 0;
 }
@@ -84,9 +85,8 @@
 
 @media screen and (max-width:768px){
     .user{
-        margin-top: 30px;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-top: 30px auto;
+        
     }
 
 }

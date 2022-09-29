@@ -17,8 +17,8 @@
 
 .sports-container{
     margin-top: 76px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .all-sports{
@@ -41,6 +41,9 @@
     }
     .activity-container{
         grid-template-columns: 1fr;
+    }
+    .sports-container{
+        margin: 20px ;
     }
     .all-sports{
         grid-template-columns: 1fr;
